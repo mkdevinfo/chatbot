@@ -86,8 +86,8 @@ const mailSend = (question, callback) => {
     var mailContent = question;
     transporter.sendMail(
         {
-            from: '"Starberry" saranya@startberry.tv',
-            to: "muthu.dev@velaninfo.com",
+            from: '"Starberry" muthukumaran195@gmail.com',
+            to: "saranya@startberry.tv",
             subject: subject,
             html: `<p>${mailContent}</p> 	
            <p>Regards,<br/> 	
